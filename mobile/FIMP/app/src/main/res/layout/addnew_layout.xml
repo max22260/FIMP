@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluetopink">
+
+    <ImageView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/face_scan"
+        android:layout_margin="3dp"
+        android:scaleType="centerCrop"
+        android:padding="70dp"
+        android:background="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/Text_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Name"
+        android:text=""/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:id="@+id/pickImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pick Image" />
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="upload" />
+
+
+</LinearLayout>
